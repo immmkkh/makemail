@@ -1,0 +1,97 @@
+<div class="container">
+ 
+ <h1 style= "text-align: center; font-family: courier; color: #36211a">Hi, I'm amature photographer KIM KYUNG HO</h1>
+    
+ <div class="jumbotron">
+     
+     
+     
+     <h2 style="text-align: center; color: #e3d9b8; font-family: cursive; font-size: 50px;" >TAKE YOUR LIFE PICTURE</h2>
+     
+     
+     <div class="gap">
+               <div class="image">
+               <%= image_tag 'lime.jpg' %>
+               </div>
+             
+             
+     <span class="abouttext">
+     <p>NAME: <span class="boldtext">KIM KYUNG HO</span></p>
+     <p>JOB: <span class="boldtext">COLLEAGUE STUDENT</span></p>
+     <p>AGE: <span class="boldtext">26</span></p>
+     <p>CAMERA: <span class="boldtext">CANON 70D</span></p>
+     <p>LENS: <span class="boldtext">EF-S 18-55mm</span> </p>
+     <p>     I LIKE TO SHOOT PHOTOGRAPHY! </p>
+     <p>     CONTACT ME.</p> 
+     <p></p>
+     <p></p>
+     </span>
+     </div>
+     
+     <form action="./send_lotte" method="POST" enctype="multipart/form-data">
+     
+         <div class="row">
+             
+             <div class="col-md-6">
+                <div class="form-group">
+                 <label for="exampleInputEmail1" style="color: #e3d9b8">NAME</label>
+                 <input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                </div> 
+             </div>
+             
+             <div class="col-md-6">
+                 <div class="form-group">
+                     <label for="exampleInputEmail1" style="color: #e3d9b8">EMAIL ADDRESS</label>
+                     <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                 </div>     
+             </div>
+         
+         </div>
+         
+         <div class="row">
+             
+             <div class="col-md-12">
+                 <div class="form-group">
+                    <label for="exampleInputEmail1" style="color: #e3d9b8">TITLE</label>
+                    <input type="text" name="title" class="form-control" id="exampleInputEmail1" placeholder="Title">
+                 </div>   
+             </div>
+             
+         </div>
+         
+         <div class="row">
+             
+             <div class="col-md-12">
+                 <div class="form-group">
+                        <label for="exampleInputEmail1" style="color: #e3d9b8">TEXT</label>
+                        <textarea class="form-control" name="content" rows="5"></textarea>
+                </div>
+             </div>
+         
+         </div>
+         
+         <div class="row btn_mail">
+         
+             <button type="submit" class="btn btn-default" >REQUEST <i class="fa fa-camera" aria-hidden="true"></i></button>
+     
+         </div>
+         
+         <div class="footer-top">
+            <ul class="socials">
+              <li class="facebook">
+                <a href="https://www.facebook.com/immmkkh" data-hover="facebook">Facebook</a>
+              </li>
+              <li class="twitter">
+                <a href="https://www.instagram.com/immmkkh/" data-hover="Instagram">Instagram</a>
+              </li>
+              <li class="gplus">
+                <a href="http://blog.naver.com/skyboy1993" data-hover="Blog">Blog</a>
+              </li>
+            </ul>
+          </div>
+          
+     </form>
+ 
+ </div>
+
+</div>
